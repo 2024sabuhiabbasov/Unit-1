@@ -1,1 +1,1 @@
-For test
+2. Variables are used to distinguish between variables of different types. For example, we have integer, double, string, char, etc. In the Python programming language, we will come across variables such as integer and string.
