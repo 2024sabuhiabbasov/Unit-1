@@ -1,3 +1,3 @@
-I have watched the following video a <br />
-https://www.youtube.com/embed/Kg6YIDZ-JpY
-2. Variables are used to distinguish between variables of different types. For example, we have integer, double, string, char, etc. In the Python programming language, we will come across variables such as integer and string.
+I have watched the following video <br />
+https://www.youtube.com/embed/Kg6YIDZ-JpY <br />
+2. Variables are used to distinguish between variables of different types. For example, we have integer, double, string, char, etc. In the Python programming language, we will come across variables such as integer and string. <br />
