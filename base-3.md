@@ -14,9 +14,8 @@ void ternary(int n){
 
 int main()
 {
-    int i, n, s = arr.size();
+    int n, cnt = 0;
     cin >> n;
-    int cnt = 0;
     if(n == 0){
         cout << 0;
         exit;
@@ -26,12 +25,13 @@ int main()
         arr.push_back(r);
         n /= 3;
     }
-    /* for(i = 0; i < s; i++){
+    int s = arr.size();
+    for(int i = s - 1; i >= 0; i--){
         cout << arr[i];
-    } */
-    cout << arr[3] << arr[2] << arr[1] << arr[0];
+    }
     return 0;
 }
+
 ```
 
 **Test cases**
