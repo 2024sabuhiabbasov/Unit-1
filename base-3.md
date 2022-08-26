@@ -2,7 +2,7 @@
 
 You can see the code I have written for calculating decimal numbers in base 3 in the C++ programming language. 
 
-```
+```.cpp
 #include <bits/stdc++.h>
 
 using namespace std;
