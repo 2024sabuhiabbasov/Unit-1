@@ -8,4 +8,5 @@ b = int(input())
 c = int(input())
 print(a + b + c)
 ```
-### The result
+### The result 
+![first.png]()
