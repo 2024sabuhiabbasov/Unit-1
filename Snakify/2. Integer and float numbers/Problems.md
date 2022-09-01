@@ -99,3 +99,18 @@ print(str (f) + str (s) + str (t) + str (l))
 ```
 ### The result 
 ![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Merge%20two%20numbers.png)
+
+## Cyclic rotation
+### Statement
+Given a four-digit integer number, perform its cyclic rotation by two digits, as shown in the tests below.
+### My code
+```.py
+a = int(input())
+f = a // 10 % 10
+s = a % 10
+t = a // 1000
+l = a //100 % 10
+print(str (f) + str (s) + str (t) + str (l))
+```
+### The result 
+![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Cyclic%20rotation.png)
