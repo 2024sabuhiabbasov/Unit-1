@@ -83,3 +83,19 @@ print(str(t) + str(s) + str(f))
 ```
 ### The result 
 ![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Reverse%20three%20digits.png)
+
+## Merge two numbers
+### Statement
+Given two two-digit numbers, merge their digits as shown in the tests below.
+### My code
+```.py
+a = int(input())
+b = int(input())
+f = a // 10
+s = b // 10
+t = a % 10
+l = b % 10
+print(str (f) + str (s) + str (t) + str (l))
+```
+### The result 
+![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Merge%20two%20numbers.png)
