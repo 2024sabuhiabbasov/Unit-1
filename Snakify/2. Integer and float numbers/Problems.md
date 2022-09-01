@@ -55,3 +55,31 @@ print((a // 10) % 10)
 ```
 ### The result 
 ![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Tens%20digit.png)
+
+## Sum of digits
+### Statement
+Given a three-digit number. Find the sum of its digits.
+### My code
+```.py
+a = int(input())
+f = a // 100
+s = (a // 10) % 10
+t = a % 10
+print(f + s + t)
+```
+### The result 
+![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Sum%20of%20digits.png)
+
+## Reverse three digits
+### Statement
+Given a three-digit integer number, print its digits in a reversed order.
+### My code
+```.py
+a = int(input())
+f = a // 100
+s = (a // 10) % 10
+t = a % 10
+print(str(t) + str(s) + str(f))
+```
+### The result 
+![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Reverse%20three%20digits.png)
