@@ -114,3 +114,4 @@ print(str (f) + str (s) + str (t) + str (l))
 ```
 ### The result 
 ![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Cyclic%20rotation.png)
+
