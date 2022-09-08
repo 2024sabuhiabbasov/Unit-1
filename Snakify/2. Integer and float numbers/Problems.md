@@ -115,3 +115,39 @@ print(str (f) + str (s) + str (t) + str (l))
 ### The result 
 ![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Cyclic%20rotation.png)
 
+## Fractional part
+### Statement
+Given a positive real number, print its fractional part.
+### My code
+```.py
+a = float(input())
+print(a - int(a))
+```
+### The result 
+![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Fractional%20part.png)
+
+## First digit after decimal point
+### Statement
+Given a positive real number, print its first digit to the right of the decimal point.
+### My code
+```.py
+a = float(input())
+print(int(a * 10) % 10)
+```
+### The result 
+![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/First%20digit%20after%20decimal%20point.png)
+
+## Car route
+### Statement
+A car can cover distance of N kilometers per day. How many days will it take to cover a route of length M kilometers? The program gets two numbers: N and M.
+### My code
+```.py
+n = int(input())
+m = int(input())
+ans = int(m // n)
+if m % n != 0:
+   ans += 1
+print(ans)
+```
+### The result 
+![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Car%20route.png)
