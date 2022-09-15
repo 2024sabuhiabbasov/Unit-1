@@ -1,4 +1,9 @@
 ## Quiz 007
+**Statement**
+Create a program that creates 10 random password with digits and letters of length 20.
+
+[HL] Ask the user for the length and if symbols should be included. Print answer in RED.
+
 **My code**
 ```.py
 import random
