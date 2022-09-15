@@ -38,7 +38,7 @@ while checker <= 2400:
     checker +=1
 ```
 ## [HL] Subtask 4: Given a list of names of students in the format lastname, firstname, create a program that assigns an email address and a locker to each student and saves the results in a file in the format lastname, firstname, email, locker
-**My code*
+**My code**
 ```.py
 
 ```
