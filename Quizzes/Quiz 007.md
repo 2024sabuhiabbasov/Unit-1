@@ -23,3 +23,5 @@ for j in range(0, 10):
             print("\33[0;31m" + chr(n) + "\033[00m", end ="")
     print("\n")
 ```
+**Test**
+![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Quizzes/Images/Quiz%20007.png)
