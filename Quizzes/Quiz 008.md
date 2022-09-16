@@ -24,4 +24,6 @@ for j in range(0, 10):
     print("\n")
 ```
 **Test**
-![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Quizzes/Images/Quiz%20007.png)
+![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Quizzes/Images/Quiz%20008-1.png)
+
+![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Quizzes/Images/Quiz%20008-2.png)
