@@ -4,6 +4,7 @@
 Create a program that translate the proteins in the DNA chain as shown below. [HL]  Input is a whole protein chain as a string.
 
 **Example**
+
 ![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Quizzes/Images/Quiz%20003%20-%20test.png)
 
 **My code**
