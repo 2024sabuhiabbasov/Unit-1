@@ -151,3 +151,36 @@ print(ans)
 ```
 ### The result 
 ![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Car%20route.png)
+
+## Day of week
+### Statement
+Let's count the days of the week as follows: 0 - Sunday, 1 - Monday, 2 - Tuesday, ..., 6 - Saturday. Given an integer K in the range 1 to 365, find the number of the day of the week for the K-th day of the year provided that this year's January 1 is Thursday.
+### My code
+```.py
+a = int(input())
+answer = a % 7 + 3
+if answer == 7:
+    answer = 0
+elif answer == 8:
+    answer = 1
+elif answer == 9:
+    answer = 2
+print(answer)
+```
+### The result 
+![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Day%20of%20week.png)
+
+## Digital clock
+### Statement
+Given the integer N - the number of minutes that is passed since midnight - how many hours and minutes are displayed on the 24h digital clock?
+
+The program should print two numbers: the number of hours (between 0 and 23) and the number of minutes (between 0 and 59).
+
+For example, if N = 150, then 150 minutes have passed since midnight - i.e. now is 2:30 am. So the program should print 2 30.
+### My code
+```.py
+a = int(input())
+print(str(a // 60), str(a % 60))
+```
+### The result 
+![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Digital%20clock.png)
