@@ -184,3 +184,19 @@ print(str(a // 60), str(a % 60))
 ```
 ### The result 
 ![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Digital%20clock.png)
+
+## Century
+### Statement
+Given a year as a positive integer, print its century. Mind that the 20th century began on 1901 and ended on 2000.
+### My code
+```.py
+year = int(input())
+if year <= 100:
+    print(1)
+elif year % 100 == 0:
+    print(year // 100)
+else:
+    print(year // 100 + 1)
+```
+### The result 
+![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Century.png)
