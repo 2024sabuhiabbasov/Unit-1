@@ -185,6 +185,21 @@ print(str(a // 60), str(a % 60))
 ### The result 
 ![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Digital%20clock.png)
 
+## Total cost
+### Statement
+A cupcake costs A dollars and B cents. Determine, how many dollars and cents should one pay for N cupcakes. A program gets three numbers: A, B, N. It should print two numbers: total cost in dollars and cents.
+### My code
+```.py
+a = int(input())
+b = int(input())
+n = int(input())
+a = a*n + (b*n)//100
+b = (b*n) % 100
+print(a, b)
+```
+### The result 
+![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Total%20cost.png)
+
 ## Century
 ### Statement
 Given a year as a positive integer, print its century. Mind that the 20th century began on 1901 and ended on 2000.
@@ -200,3 +215,45 @@ else:
 ```
 ### The result 
 ![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Century.png)
+
+## Snail
+### Statement
+A snail goes up A feet during the day and falls B feet at night. How long does it take him to go up H feet?
+
+Given three integer numbers H, A and B (A > B), the program should output a number of days.
+### My code
+```.py
+from math import ceil
+
+h = int(input())
+a = int(input())
+b = int(input())
+print(ceil((h - a) / (a - b)) + 1)
+```
+### The result 
+![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Snail.png)
+
+## Clock face - 1
+### Statement
+H hours, M minutes and S seconds are passed since the midnight (0 ≤ H < 12, 0 ≤ M < 60, 0 ≤ S < 60). Determine the angle (in degrees) of the hour hand on the clock face right now.
+### My code
+```.py
+h = int(input())
+m = int(input())
+s = int(input())
+print(h*30 + m*0.5 + s*(0.05/6))
+```
+### The result 
+![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Clock%20face%20-%201.png)
+
+## Clock face - 2
+### Statement
+Hour hand turned by α degrees since the midnight. Determine the angle by which minute hand turned since the start of the current hour. Input and output in this problems are floating-point numbers.
+### My code
+```.py
+a = float(input())
+m = (a % 30) / 0.5 * 6
+print(m)
+```
+### The result 
+![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Clock%20face%20-%202.png)
