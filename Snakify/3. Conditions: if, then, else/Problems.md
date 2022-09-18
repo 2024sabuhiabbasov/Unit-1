@@ -560,3 +560,38 @@ print(mi, m, ma)
 ```
 ### The result 
 ![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Sort%20three%20numbers.png)
+
+## White pawn move
+### Statement
+A white chess pawn moves up vertically one square at a time. An exception is a pawn on a row #2: it can move either one or two squares up. In addition, a white chess pawn captures diagonally up one square to the left or right. A white chess pawn can never occur on a row #1.
+
+The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first square, and then the last two - for the second square. The program should print YES if a white pawn can possibly move from the first square to the second square in one move in some game - either by move or by capture. The program should print NO otherwise. The first four tests correspond to the green arrows on the picture below.
+### My code
+```.py
+c1 = int(input())
+r1 = int(input())
+c2 = int(input())
+r2 = int(input())
+
+if r1 == 1 or r2 == 1:
+    print("NO")
+
+elif c1 == c2:
+    if r2 - r1 == 1:
+        print("YES")
+    elif r1 == 2 and r2 == 4:
+        print("YES")
+    else:
+        print("NO")
+        
+elif abs(c1 - c2) == 1:
+    if abs(r2 - r1) == 1:
+        print("YES")
+    else:
+        print("NO")
+        
+else:
+    print("NO")
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/White%20pawn%20move.png)
