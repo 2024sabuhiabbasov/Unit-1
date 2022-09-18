@@ -412,3 +412,43 @@ else:
 ```
 ### The result 
 ![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Bishop%20moves.png)
+
+## Queen move
+### Statement
+Chess queen moves horizontally, vertically or diagonally to any number of cells. Given two different cells of the chessboard, determine whether a queen can go from the first cell to the second in one move.
+
+The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell. The program should output YES if a queen can go from the first cell to the second in one move, or NO otherwise.
+### My code
+```.py
+c1 = int(input())
+r1 = int(input())
+c2 = int(input())
+r2 = int(input())
+if abs(c1 - c2) == abs(r1 - r2):
+    print("YES")
+elif c1 == c2 or r1 == r2:
+    print("YES")
+else:
+    print('NO')
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Queen%20move.png)
+
+## Index of outlier
+### Statement
+Given three integers: two are equal to each other and the third one is different. Print the index number of this different one - 1, 2 or 3.
+### My code
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+
+if a == b:
+    print(3)
+elif a == c:
+    print(2)
+else:
+    print(1)
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Index%20of%20outlier.png)
