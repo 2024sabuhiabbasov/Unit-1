@@ -2,153 +2,166 @@
 # 3. Conditions: if then, else
 ## Is positive
 ### Statement
-Given an integer number, print its last digit.
-
-Remember that you can convert the numbers to strings using the function str.
+Given an integer, print "YES" if it's positive and print "NO" otherwise.
 ### My code
 ```.py
 a = int(input())
-print(a % 10)
+if a > 0:
+    print("YES")
+else:
+    print("NO")
 ```
 ### The result 
-![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Last%20digit%20of%20integer.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Is%20positive.png)
 
-## Two digits
+## Is odd
 ### Statement
-Given a two-digit number, print its digits separately.
+Given an integer, print "YES" if it's odd and print "NO" otherwise.
 ### My code
 ```.py
 a = int(input())
-print(a // 10 , a % 10)
+if a % 2 == 1:
+    print("YES")
+else:
+    print("NO")
 ```
 ### The result 
-![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Two%20digits.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Is%20odd.png)
 
-## Swap digits
+## Is even
 ### Statement
-Given a two-digit number, swap its digits as shown in the tests below.
+Given an integer, print "YES" if it's even and print "NO" otherwise.
 ### My code
 ```.py
 a = int(input())
-print(str(a % 10) + str(a // 10))
+if a % 2 == 0:
+    print("YES")
+else:
+    print("NO")
 ```
 ### The result 
-![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Swap%20digits.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Is%20even.png)
 
-## Last two digits
+## Ends on seven
 ### Statement
-Given an integer number, print its last two digits.
+Given an integer, print "YES" if it's last digit is 7 and print "NO" otherwise.
 ### My code
 ```.py
 a = int(input())
-print(str(a % 100))
+if a % 10 == 7:
+    print("YES")
+else:
+    print("NO")
 ```
 ### The result 
-![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Last%20two%20digits.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Ends%20on%20seven.png)
 
-## Tens digit
+## Minimum of two numbers
 ### Statement
-Given an integer. Print its tens digit.
-### My code
-```.py
-a = int(input())
-print((a // 10) % 10)
-```
-### The result 
-![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Tens%20digit.png)
-
-## Sum of digits
-### Statement
-Given a three-digit number. Find the sum of its digits.
-### My code
-```.py
-a = int(input())
-f = a // 100
-s = (a // 10) % 10
-t = a % 10
-print(f + s + t)
-```
-### The result 
-![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Sum%20of%20digits.png)
-
-## Reverse three digits
-### Statement
-Given a three-digit integer number, print its digits in a reversed order.
-### My code
-```.py
-a = int(input())
-f = a // 100
-s = (a // 10) % 10
-t = a % 10
-print(str(t) + str(s) + str(f))
-```
-### The result 
-![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Reverse%20three%20digits.png)
-
-## Merge two numbers
-### Statement
-Given two two-digit numbers, merge their digits as shown in the tests below.
+Given two integers, print the smaller value.
 ### My code
 ```.py
 a = int(input())
 b = int(input())
-f = a // 10
-s = b // 10
-t = a % 10
-l = b % 10
-print(str (f) + str (s) + str (t) + str (l))
+if a >= b:
+    print(b)
+else:
+    print(a)
 ```
 ### The result 
-![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Merge%20two%20numbers.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Minimum%20of%20two%20numbers.png)
 
-## Cyclic rotation
+## Are both odd
 ### Statement
-Given a four-digit integer number, perform its cyclic rotation by two digits, as shown in the tests below.
+Given two integers, print "YES" if they're both odd and print "NO" otherwise.
 ### My code
 ```.py
 a = int(input())
-f = a // 10 % 10
-s = a % 10
-t = a // 1000
-l = a //100 % 10
-print(str (f) + str (s) + str (t) + str (l))
+b = int(input())
+if a % 2 == 1:
+    if b % 2 == 1:
+        print("YES")
+    else:
+        print("NO")
+else:
+    print("NO")
 ```
 ### The result 
-![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Cyclic%20rotation.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Are%20both%20odd.png)
 
-## Fractional part
+## At least one odd
 ### Statement
-Given a positive real number, print its fractional part.
+Given two integers, print "YES" if at least one of them is odd and print "NO" otherwise.
 ### My code
 ```.py
-a = float(input())
-print(a - int(a))
+a = int(input())
+b = int(input())
+if a % 2 == 1 or b % 2 == 1:
+    print("YES")
+else:
+    print("NO")
 ```
 ### The result 
-![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Fractional%20part.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/At%20least%20one%20odd.png)
 
-## First digit after decimal point
+## Exactly one odd
 ### Statement
-Given a positive real number, print its first digit to the right of the decimal point.
+Given two integers, print "YES" if exactly one of them is odd and print "NO" otherwise.
 ### My code
 ```.py
-a = float(input())
-print(int(a * 10) % 10)
+a = int(input())
+b = int(input())
+if (a % 2 == 1 and b % 2 != 1) or (b % 2 == 1 and a % 2 != 1):
+    print("YES")
+else:
+    print("NO")
 ```
 ### The result 
-![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/First%20digit%20after%20decimal%20point.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Exactly%20one%20odd.png)
 
-## Car route
+## Sign function
 ### Statement
-A car can cover distance of N kilometers per day. How many days will it take to cover a route of length M kilometers? The program gets two numbers: N and M.
+For the given integer X print 1 if it's positive, -1 if it's negative, or 0 if it's equal to zero.
+Try to use the cascade if-elif-else for it.
 ### My code
 ```.py
-n = int(input())
-m = int(input())
-ans = int(m // n)
-if m % n != 0:
-   ans += 1
-print(ans)
+a = int(input())
+if a > 0:
+    print(1)
+elif a < 0:
+    print(-1)
+else:
+    print(0)
 ```
 ### The result 
-![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Snakify/2.%20Integer%20and%20float%20numbers/Images/Car%20route.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Sign%20function.png)
+
+## Numbers in ascending order
+### Statement
+Given three different integers, print YES if they're given in ascending order, print NO otherwise.
+### My code
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+if a < b and b < c:
+    print("YES")
+else:
+    print("NO")
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Numbers%20in%20ascending%20order.png)
+
+## Is three digit
+### Statement
+Given an integer, print "YES" if it's a three-digit number and print "NO" otherwise.
+### My code
+```.py
+a = int(input())
+if a >= 100 and a <= 999:
+    print("YES")
+else:
+    print("NO")
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Is%20three%20digit.png)
