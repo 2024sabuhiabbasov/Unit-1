@@ -299,3 +299,116 @@ print(ans)
 ```
 ### The result 
 ![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Distance%20to%20closest%20point.png)
+
+## Digits in ascending order
+### Statement
+Given a three-digit integer, print YES if its digits go in ascending order, print NO otherwise.
+### My code
+```.py
+a = int(input())
+f = a // 100
+s = (a // 10) % 10
+t = a % 10
+if f <= s and s <= t:
+    print("YES")
+else:
+    print("NO")
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Digits%20in%20ascending%20order.png)
+
+## Four-digit palindrome
+### Statement
+A palindrome is a number which reads the same when read forward as it it does when read backward. Given a four-digit integer, print "YES" if it's a palindrome and print "NO" otherwise.
+### My code
+```.py
+a = int(input()) ## 1234
+f = a // 1000
+s = (a // 100) % 10
+t = (a // 10) % 10
+l = a % 10
+if f == l and s == t:
+    print("YES")
+else:
+    print("NO")
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Four-digit%20palindrome.png)
+
+## King move
+### Statement
+Chess king moves horizontally, vertically or diagonally to any adjacent cell. Given two different cells of the chessboard, determine whether a king can go from the first cell to the second in one move.
+
+The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell. The program should output YES if a king can go from the first cell to the second in one move, or NO otherwise.
+### My code
+```.py
+c1 = int(input())
+r1 = int(input())
+c2 = int(input())
+r2 = int(input())
+
+if r2 - r1 == 1:
+    if c1 == c2:
+        print("YES")
+    elif c1 == c2 - 1:
+        print("YES")
+    elif c1 == c2 + 1:
+        print("YES")
+    else:
+        print("NO")
+        
+elif r2 + 1 == r1:
+    if c1 == c2:
+        print("YES")
+    elif c1 == c2 - 1:
+        print("YES")
+    elif c1 == c2 + 1:
+        print("YES")
+    else:
+        print("NO")
+
+elif c2 - c1 == 1:
+    if r1 == r2:
+        print("YES")
+    elif r1 == r2 - 1:
+        print("YES")
+    elif r1 == r2 + 1:
+        print("YES")
+    else:
+        print("NO")
+        
+elif c2 + 1 == c1:
+    if r1 == r2:
+        print("YES")
+    elif r1 == r2 - 1:
+        print("YES")
+    elif r1 == r2 + 1:
+        print("YES")
+    else:
+        print("NO")
+        
+else:
+    print("NO")
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/King%20move.png)
+
+## Bishop moves
+### Statement
+In chess, the bishop moves diagonally, any number of squares. Given two different squares of the chessboard, determine whether a bishop can go from the first to the second in one move.
+
+The program receives as input four numbers from 1 to 8, specifying the column and row numbers of the starting square and the column and row numbers of the ending square. The program should output YES if a Bishop can go from the first square to the second in one move, or NO otherwise.
+### My code
+```.py
+c1 = int(input())
+r1 = int(input())
+c2 = int(input())
+r2 = int(input())
+
+if ((r2 - r1 == c2 - c1) or (c1 == r2 and r1 == c2)) or (c2 - c1 == r1 - r2 or c1 - c2 == r2 - r1):
+    print("YES")
+else:
+    print("NO")
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Bishop%20moves.png)
