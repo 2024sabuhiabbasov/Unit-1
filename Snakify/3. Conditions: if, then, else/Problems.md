@@ -452,3 +452,111 @@ else:
 ```
 ### The result 
 ![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Index%20of%20outlier.png)
+
+## Knight move
+### Statement
+Chess knight moves like the letter L. It can move two cells horizontally and one cell vertically, or two cells vertically and one cells horizontally. Given two different cells of the chessboard, determine whether a knight can go from the first cell to the second in one move.
+
+The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell. The program should output YES if a knight can go from the first cell to the second in one move, or NO otherwise.
+### My code
+```.py
+c1 = int(input())
+r1 = int(input())
+c2 = int(input())
+r2 = int(input())
+
+if abs(c1 - c2) == 2 and abs(r1 - r2) == 1:
+    print("YES")
+elif abs(c1 - c2) == 1 and abs(r1 - r2) == 2:
+    print("YES")
+else:
+    print("NO")
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Knight%20move.png)
+
+## Chocolate bar
+### Statement
+Chocolate bar has the form of a rectangle divided into n×m portions. Chocolate bar can be split into two rectangular parts by breaking it along a selected straight line on its pattern. Determine whether it is possible to split it so that one of the parts will have exactly k squares.
+
+The program reads three integers: n, m, and k. It should print YES or NO.
+### My code
+```.py
+n = int(input())
+m = int(input())
+k = int(input())
+
+if k <= (n * m) and (k % n == 0 or k % m == 0):
+    print("YES")
+else:
+    print("NO")
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Chocolate%20bar.png)
+
+## Leap year
+### Statement
+Given the year number. You need to check if this year is a leap year. If it is, print LEAP, otherwise print COMMON.
+The rules in Gregorian calendar are as follows:
+
+a year is a leap year if its number is exactly divisible by 4 and is not exactly divisible by 100
+a year is always a leap year if its number is exactly divisible by 400
+
+Warning. The words LEAP and COMMON should be printed all caps.
+### My code
+```.py
+year = int(input())
+
+if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+    print("LEAP")
+else:
+    print("COMMON")
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Leap%20year.png)
+
+## Days in month
+### Statement
+Given a month - an integer from 1 (January) to 12 (December), print the number of days in it in the year 2017 (or any other non-leap year).
+### My code
+```.py
+month = int(input())
+days = ["31", "28", "31", "30", "31", "30", "31", "31", "30", "31", "30", "31"]
+print(days[month - 1])
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Days%20in%20month.png)
+
+## Linear equation
+### Statement
+Write a program that solves a linear equation ax = b in integers. Given two integers a and b (a may be zero), print a single integer root if it exists and print "no solution" or "many solutions" otherwise.
+### My code
+```.py
+a = int(input())
+b = int(input())
+
+if abs(a) > abs(b) or (a == 0 and b != 0):
+    print("no solution")
+elif a == 0 and b == 0:
+    print("many solutions")
+else:
+    print(b//a)
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Linear%20equation.png)
+
+## Sort three numbers
+### Statement
+Given three integers, print them in ascending order.
+### My code
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+mi = min(a, min(b, c))
+ma = max(a, max(b, c))
+m = (a + b + c) - mi - ma
+print(mi, m, ma)
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Sort%20three%20numbers.png)
