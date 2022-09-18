@@ -196,3 +196,106 @@ else:
 ```
 ### The result 
 ![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Equal%20numbers.png)
+
+## Rook move
+### Statement
+Chess rook moves horizontally or vertically. Given two different cells of the chessboard, determine whether a rook can go from the first cell to the second in one move.
+
+The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell. The program should output YES if a rook can go from the first cell to the second in one move, or NO otherwise.
+### My code
+```.py
+x = int(input())
+y = int(input())
+x1 = int(input())
+y1 = int(input())
+if x == x1:
+    print("YES")
+elif y == y1:
+    print("YES")
+else:
+    print("NO")
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Rook%20move.png)
+
+## Chess board - black square
+### Statement
+Given a square of a chessboard. Print BLACK if it's black and print WHITE otherwise.
+The program receives two numbers from 1 to 8 each - the column and the row number of the square.
+### My code
+```.py
+x = int(input())
+y = int(input())
+if x == y:
+    print("BLACK")
+elif x % 2 == 0:
+    if y % 2 == 0:
+        print("BLACK")
+    else:
+        print("WHITE")
+elif x % 2 == 1:
+    if y % 2 == 0:
+        print("WHITE")
+    else:
+        print("BLACK")
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if,%20then,%20else/Images/Chess%20board%20-%20black%20square.png)
+
+## Chess board - same color
+### Statement
+Given two cells of a chessboard. If they are painted in one color, print the word YES, and if in a different color - NO.
+The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell.
+### My code
+```.py
+x = int(input())
+y = int(input())
+x1 = int(input())
+y1 = int(input())
+s = 0;
+s1 = 0;
+if x == y:
+    s = 0;
+elif x % 2 == 0:
+    if y % 2 == 0:
+        s = 0;
+    else:
+        s = 1;
+elif x % 2 == 1:
+    if y % 2 == 0:
+        s = 1;
+    else:
+        s = 0;
+if x1 == y1:
+    s1 = 0;
+elif x1 % 2 == 0:
+    if y1 % 2 == 0:
+        s1 = 0;
+    else:
+        s1 = 1;
+elif x1 % 2 == 1:
+    if y1 % 2 == 0:
+        s1 = 1;
+    else:
+        s1 = 0;
+if s == s1:
+    print("YES")
+else:
+    print("NO")
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Chess%20board%20-%20same%20color.png)
+
+## Distance to closest point
+### Statement
+Given the coordinates of the three points A, B, and C on a line. Print a distance from the point A to closest point to it.
+### My code
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+ans = min(abs(a-b), abs(a-c))
+print(ans)
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Distance%20to%20closest%20point.png)
