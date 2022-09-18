@@ -165,3 +165,34 @@ else:
 ```
 ### The result 
 ![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Is%20three%20digit.png)
+
+## Minimum of three numbers
+### Statement
+Given three integers, print the smallest value.
+### My code
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+print(min(a, min(b, c)))
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Minimum%20of%20three%20numbers.png)
+
+## Equal numbers
+### Statement
+Given three integers, determine how many of them are equal to each other. The program must print one of these numbers: 3 (if all are the same), 2 (if two of them are equal to each other and the third is different) or 0 (if all numbers are different).
+### My code
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+if a == b and b == c:
+    print(3)
+elif a != b and b != c and a != c:
+    print(0)
+else:
+    print(2)
+```
+### The result 
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Snakify/3.%20Conditions:%20if%2C%20then%2C%20else/Images/Equal%20numbers.png)
