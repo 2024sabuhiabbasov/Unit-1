@@ -8,7 +8,7 @@ Given a number, create a program that produces the output factors.
 ![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20005%20-%20test%20cases.png)
 
 ## My solutions
-###Code
+### Code
 ```.py# Program to find the factors of a number
 
 def factors(x):
@@ -34,4 +34,5 @@ factors(num)
 
 ### Flow diagram
 
-![]()
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz_005_-_Flow_diagram_-_1.jpg)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz_005_-_Flow_diagram_-_2.jpg)
