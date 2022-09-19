@@ -1,13 +1,14 @@
-## Quiz 003
+# Quiz 003
 **Statement**
 
 Create a program that translate the proteins in the DNA chain as shown below. [HL]  Input is a whole protein chain as a string.
 
-**Example**
+**Test cases**
 
 ![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Quizzes/Images/Quiz%20003%20-%20test.png)
 
-**My code**
+## My solutions
+### Code
 ```.py
 # The program translates the proteins in the DNA chain
 
@@ -32,6 +33,10 @@ for i in range(0, len(protein_name)):
     print(new[i], end='')
 
 ```
-**Test**
+**Testing the code**
 
-![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Quizzes/Images/Quiz%20003.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20003%20-%20testing%20the%20code.png)
+
+### Flow diagram
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20003%20-%20Flow%20diagram%20-%201.JPG)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20003%20-%20Flow%20diagram%20-%202.JPG)
