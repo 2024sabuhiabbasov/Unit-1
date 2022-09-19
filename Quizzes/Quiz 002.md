@@ -34,7 +34,7 @@ for i in range(0, 4):
     k = int(input("Please input №" + str(i + 1) + " element of List B: "))
     list_B.append(k)
 
-print("\nThanks for entering all numbers! Now I will check if any of two numbers you entered makes 20. Wait a second please, I need to do some calculation...\n")
+print("\nThanks for entering all numbers! Now I will check if any of two numbers you entered makes 20. \nI will print 'TRUE' if there is, otherwise 'FALSE.' Wait a second please, I need to do some calculation...\n")
 
 time.sleep(3)
 
@@ -46,9 +46,9 @@ for i in range(0, 4):
 
 print("FALSE")
 ```
-**Test**
+**Testing the code**
 
-![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Quizzes/Images/Quiz%20003.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20002%20-%20testing%20the%20code.png)
 
 ### Flow diagram
 ![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Quizzes/Images/Quiz%20003.png)
