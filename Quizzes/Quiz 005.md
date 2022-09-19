@@ -30,7 +30,7 @@ factors(num)
 
 **Testing the code**
 
-![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20005%20-%20testing%20the%20code.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20005%20-%20testing%20the%20code%20-%201.png)
 
 ### Flow diagram
 
