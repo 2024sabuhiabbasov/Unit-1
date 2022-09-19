@@ -1,9 +1,10 @@
-## Quiz 007
+# Quiz 007
 **Statement**
 
 Create a program that creates 10 random password with digits and letters of length 20. If you are an HL student, ask the user for the length and if symbols should be included. Print answer in RED.
 
-**My code**
+## My solutions
+### Code
 ```.py
 import random
 
@@ -23,5 +24,11 @@ for j in range(0, 10):
             print("\33[0;31m" + chr(n) + "\033[00m", end ="")
     print("\n")
 ```
-**Test**
+**Testing the code**
+
 ![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Quizzes/Images/Quiz%20007.png)
+
+### Flow diagram
+Flow diagram for this quiz is drawn on app.diagrams.net. You can also see the diagram from the link: https://bit.ly/3UlPPGt
+
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20007%20-%20Flow%20diagram.jpg)
