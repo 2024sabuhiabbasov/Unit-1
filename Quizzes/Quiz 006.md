@@ -1,9 +1,14 @@
-## Quiz 005
+# Quiz 006
 **Statement**
 
 Given a string, create a program that produces the sum of the characters in the string.
 
-**My code**
+**Test cases**
+
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20006%20-%20test%20cases.png)
+
+## My solutions
+### Code
 ```.py
 str = input()
 SumOfCharacters = 0
@@ -14,6 +19,10 @@ for i in range(0, len(str)):
 print(SumOfCharacters)
 ```
 
-**Test**
+**Testing the code**
 
-![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Quizzes/Images/Quiz%20006.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20006%20-%20testing%20the%20code.png)
+
+### Flow diagram
+
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%206%20-%20Flow%20diagram.JPG)
