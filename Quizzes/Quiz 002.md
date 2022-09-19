@@ -51,4 +51,5 @@ print("FALSE")
 ![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20002%20-%20testing%20the%20code.png)
 
 ### Flow diagram
-![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Quizzes/Images/Quiz%20003.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20002%20-%20Flow%20diagram%20-%201.JPG)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20002%20-%20Flow%20diagram%20-%202.JPG)
