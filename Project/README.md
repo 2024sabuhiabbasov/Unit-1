@@ -16,6 +16,10 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 Design statement:
 I will to design and make a ———— for a client who is ———. The ——– will about ———— and is constructed using the software ———. It will take  ———- to make and will be evaluated according to the criteria ———.
 
+I am going to use the cryptocurrency named **BNB**. BNB was initially based on the Ethereum network but is now the native currency of Binance's own blockchain, the Binance chain. Its uses have expanded to numerous applications on a wide number of platforms. It is used to pay for transaction fees on Binance.com, Binance DEX, and Binance Chain.
+
+(Resource: https://www.investopedia.com/terms/b/binance-coin-bnb.asp)
+
 Justify the tools/structure of your solution
 
 ## Success Criteria
