@@ -14,7 +14,7 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 ## Proposed Solution
 
 Design statement:
-I will to design and make a program for a client who is a local trader in Japan. The program will about ———— and is constructed using the software Python. It will take  1 month to make and will be evaluated according to the criteria A.
+I will to design and make a CryptoWallet for a client who is a local trader in Japan. The CryptoWallet will be about ———— and is constructed using the software Python. It will take  1 month to make and will be evaluated according to the criteria A.
 
 I am going to use the cryptocurrency named **BNB**. BNB was initially based on the Ethereum network but is now the native currency of Binance's own blockchain, the Binance chain. Its uses have expanded to numerous applications on a wide number of platforms. It is used to pay for transaction fees on Binance.com, Binance DEX, and Binance Chain.
 
@@ -26,9 +26,9 @@ Justify the tools/structure of your solution
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
-4.
-5.
-6.
+4. The electronic ledger shows the values of datas in 3 currencies: US Dollar, Euro, Japanese Yen. 
+5. The application is protected with authentication questions.
+6. The electronic ledger can categorize transactions done by the user. For example, how much crypto money spent on daily products.
 
 # Criteria B: Design
 
@@ -38,7 +38,7 @@ Justify the tools/structure of your solution
 
 
 ## Record of Tasks
-| Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
+| Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criteria |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10min         | Sep 22                 | B         |
-
+| 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution.                        | 10min         | Sep 22                 | B         |
+| 2 | Complete Success Criteria | To have criteria that meet the buyer's expectations. | 15 mins | Sep 23 | A |
