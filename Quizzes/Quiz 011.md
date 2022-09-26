@@ -5,7 +5,7 @@ Create a function that shows the days of your birthday’s month for the year 20
 
 **Test cases**
 
-![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20011%20-%20test%20cases.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20011%20-test%20cases.png)
 
 ## My solutions
 ### Code
@@ -45,4 +45,4 @@ bestMonth()
 
 **Test 1**
 
-![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20011%20-%20testing%20the%20code%20.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20011%20-%20testing%20the%20code.png)
