@@ -43,4 +43,4 @@ print(colors[2] + "Multiplication table".center(40, ' ') + '\n' + mulTable(numbe
 
 **Test 1**
 
-![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20011%20-%20testing%20the%20code.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20012%20-%20testing%20the%20code.png)
