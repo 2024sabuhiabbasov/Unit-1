@@ -42,3 +42,5 @@ Justify the tools/structure of your solution
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution.                        | 10min         | Sep 23                 | B         |
 | 2 | Complete Success Criteria | To have criteria that meet the buyer's expectations. | 15 mins | Sep 23 | A |
+| 3 | Create a login system | A coded and tested login system to protect the application with username and password | 30 mins | Sep 27 | C |
+| 4 | Create a flow diagram for login system | To make it easier for the customer to know how the login system works | 10 mins | Sep 27 | B |
