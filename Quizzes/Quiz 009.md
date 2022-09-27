@@ -12,7 +12,7 @@ Create a function that receives as input a string and returns the string ciphere
 ```.py
 import string
 
-alphabet_string = string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase + string.ascii_lowercase + string.ascii_uppercase
+alphabet_string = (string.ascii_lowercase + string.ascii_uppercase) * 100
 alphabet_list = list(alphabet_string)
 
 colors = ["\033[0;30m", "\033[0;31m", "\033[0;32m", "\033[0;33m", "\033[0;34m"]
@@ -34,6 +34,9 @@ for i in range(0, length):
     else:
         print(str[i], end='')
 ```
+### Flow diagram
+
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20009%20-%20flow%20diagram.jpg)
 
 **Testing the code**
 
