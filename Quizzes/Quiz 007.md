@@ -29,6 +29,6 @@ for j in range(0, 10):
 ![](https://raw.githubusercontent.com/2024sabuhiabbasov/Unit-1/main/Quizzes/Images/Quiz%20007.png)
 
 ### Flow diagram
-Flow diagram for this quiz is drawn on app.diagrams.net. You can also see the diagram from the link: https://bit.ly/3UlPPGt
+Flow diagram for this quiz is drawn on app.diagrams.net.
 
 ![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20007%20-%20Flow%20diagram.jpg)
