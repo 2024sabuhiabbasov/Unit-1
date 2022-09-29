@@ -33,6 +33,9 @@ Justify the tools/structure of your solution
 # Criteria B: Design
 
 ## System Diagram
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Project/Images/Unit%201%20Project%20-%20System%20Diagram.jpg)
+
+The program will be based on Windows 10 with AMD Ryzen 3 3250U processor with 8 GB of RAM. The program will be written in the Python language. I will use PyCharm 2022.1.3 version to implement my ideas to code. There will be reading and writing operations between database.csv and CryptoWallet.py file. My program will get input by using the keyboard and print the output by using the monitor.
 
 ## Flow Diagrams
 
@@ -40,7 +43,7 @@ Justify the tools/structure of your solution
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criteria |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution.                        | 10min         | Sep 23                 | B         |
+| 1 | Create system diagram | To have a clear idea of the hardware and software requirements for the proposed solution. | 10min | Sep 23 | B |
 | 2 | Complete Success Criteria | To have criteria that meet the buyer's expectations. | 15 mins | Sep 23 | A |
 | 3 | Create a login system | A coded and tested login system to protect the application with username and password | 30 mins | Sep 27 | C |
 | 4 | Create a flow diagram for login system | To make it easier for the customer to know how the login system works | 10 mins | Sep 27 | B |
