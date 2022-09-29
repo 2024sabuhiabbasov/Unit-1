@@ -38,7 +38,8 @@ Justify the tools/structure of your solution
 The program will be based on Windows 10 with AMD Ryzen 3 3250U processor with 8 GB of RAM. The program will be written in the Python language. I will use PyCharm 2022.1.3 version to implement my ideas to code. There will be reading and writing operations between database.csv and CryptoWallet.py file. My program will get input by using the keyboard and print the output by using the monitor.
 
 ## Flow Diagrams
-
+### Login system
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Project/Images/Login%20system%20-%20Flow%20Diagram.jpg)
 
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criteria |
