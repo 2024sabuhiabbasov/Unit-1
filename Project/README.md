@@ -42,7 +42,7 @@ The program will be based on Windows 10 with AMD Ryzen 3 3250U processor with 8 
 ![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Project/Images/Login%20system%20-%20Flow%20Diagram.jpg)
 
 ## Record of Tasks
-| Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criteria |
+| Task No | Planned Action                                               | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criteria |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1 | Create system diagram | To have a clear idea of the hardware and software requirements for the proposed solution | 10min | Sep 23 | B |
 | 2 | Complete Success Criteria | To have criteria that meet the buyer's expectations | 15 mins | Sep 23 | A |
