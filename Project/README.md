@@ -48,5 +48,5 @@ The program will be based on Windows 10 with AMD Ryzen 3 3250U processor with 8 
 | 2 | Complete Success Criteria | To have criteria that meet the buyer's expectations | 15 mins | Sep 23 | A |
 | 3 | Create a login system | A coded and tested login system to protect the application with username and password | 30 mins | Sep 29 | C |
 | 4 | Create a flow diagram for login system | To make it easier for the customer to know how the login system works | 20 mins | Sep 30 | B |
-| 5 | Create a menu | A coded and tested menu to welcome the customer and make it easy for her to navigate between menus | 30 mins | Sep 30 | C |
-| 6 | Create a flow diagram for menu | To make it easier for the customer to know how menu works | 20 mins | Sep 30 | B |
+| 5 | Create a menu | A coded and tested menu to welcome the customer and make it easy for her to navigate between menus | 30 mins | Oct 2 | C |
+| 6 | Create a flow diagram for menu | To make it easier for the customer to know how menu works | 20 mins | Oct 2 | B |
