@@ -44,8 +44,8 @@ The program will be based on Windows 10 with AMD Ryzen 3 3250U processor with 8 
 ## Record of Tasks
 | Task No | Planned Action                                               | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criteria | Status |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|-----------|
-| 1 | Create system diagram | To have a clear idea of the hardware and software requirements for the proposed solution | 10min | Sep 23 | B | Completed |
-| 2 | Complete Success Criteria | To have criteria that meet the buyer's expectations | 15 mins | Sep 23 | A | Completed |
+| 1 | Create [system diagram](https://github.com/2024sabuhiabbasov/Unit-1/edit/main/Project/README.md#system-diagram) | To have a clear idea of the hardware and software requirements for the proposed solution | 10min | Sep 23 | B | Completed |
+| 2 | Complete [Success Criteria](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Project/README.md#success-criteria) | To have criteria that meet the buyer's expectations | 15 mins | Sep 23 | A | Completed |
 | 3 | Create a login system | A coded and tested login system to protect the application with username and password | 30 mins | Sep 29 | C | Completed |
-| 4 | Create a flow diagram for login system | To make it easier for the customer to know how the login system works | 20 mins | Sep 30 | B | Completed |
+| 4 | Create a [flow diagram for login system](https://github.com/2024sabuhiabbasov/Unit-1/edit/main/Project/README.md#login-system) | To make it easier for the customer to know how the login system works | 20 mins | Sep 30 | B | Completed |
 | 5 | Create a menu | A coded and tested menu to welcome the customer and make it easy for her to navigate between menus | 30 mins | Oct 2 | C | Completed |
