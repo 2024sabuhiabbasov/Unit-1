@@ -47,8 +47,8 @@ To protect the customer's privacy, my program checks if the customer chooces a s
 ![]()
 
 ### BNBConverter
-To read the data in an eaiser way, the program prints BNB values in USD as well. This is the flow diagram of converting BNB to USD.
-![]()
+To read the data in an eaiser way, the program prints BNB values in USD as well. This is the flow diagram of function converting BNB to USD.
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Project/Images/BNB%20Converter%20-%20Flow%20diagram.jpg)
 
 ## Record of Tasks
 | Task No | Planned Action                                               | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criteria | Status |
