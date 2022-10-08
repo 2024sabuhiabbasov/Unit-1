@@ -196,3 +196,6 @@ def password_check(passwd: str):
 ```
 ### Testing the program
 ![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Project/Images/Testing%20transaction%20history.png)
+
+# Proof of working
+[Testing video](https://drive.google.com/file/d/1YKB-m7xLVrIu9fFxc53BAWyWXm5vmdVr/view) of the program to see if it works
