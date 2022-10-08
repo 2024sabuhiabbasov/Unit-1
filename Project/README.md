@@ -53,3 +53,67 @@ The program will be based on Windows 10 with AMD Ryzen 3 3250U processor with 8 
 | 7 | Updating text formatting | To have an updated text format to make the app more more clear for the customer based on feedback from the customer meeting | 2 hours | Oct 7 | C | Completed |
 | 8 | Adding online currency resource | To have a coded and tested online currency converter in the app to convert money between BNB and USD | 1 hour | Oct 8 | C | Completed |
 | 9 | Testing the program | To have an idea of how the user will be welcomed and the app will work and adding improvements based on those ideas | 30 mins | Oct 8 | C and E | Completed |
+
+# Criteria C: Development
+
+## Password validation
+To protect the customer's privacy, my program checks if the customer chooces a strong password for login. The customer is asked to reenter the password unless she enters a valid password. Also, she is given special instructions about password choose based on the password she has entered.
+
+```.py
+def password_check(passwd: str):
+    '''
+    Password validation. Simply validates if the password meet valid password conditions.
+    :param passwd: str
+    :return: Bool
+    '''
+
+    SpecialSym =['$', '@', '#', '%', '!', '.', ',']
+    # Creating a list with the symbols that the user can use in a password
+    val = True
+
+    # Checking if the user has entered a password whose length is less than 6
+    # If yes, the user will get a warning and has to reenter a new password
+    if len(passwd) < 6:
+        print('❌️Length must be at least 6')
+        time.sleep(0.1) # waiting for 0.1 seconds
+        val = False
+
+    # Checking if the user has entered a password whose length is more than 20
+    # If yes, the user will get a warning and has to reenter a new password
+    if len(passwd) > 20:
+        print('❌️Length must be not be greater than 20')
+        time.sleep(0.1) # waiting for 0.1 seconds
+        val = False
+        
+    # Checking if the user has entered a password which has a number character
+    # If no, the user will get a warning and has to reenter a new password
+    if not any(char.isdigit() for char in passwd):
+        print('❌️Password must have at least one numeral')
+        time.sleep(0.1) # waiting for 0.1 seconds
+        val = False
+
+    # Checking if the user has entered a password which has an uppercase letter
+    # If no, the user will get a warning and has to reenter a new password
+    if not any(char.isupper() for char in passwd):
+        print('❌️Password must have at least one uppercase letter')
+        time.sleep(0.1) # waiting for 0.1 seconds
+        val = False
+
+    # Checking if the user has entered a password which has an lowercase letter
+    # If no, the user will get a warning and has to reenter a new password
+    if not any(char.islower() for char in passwd):
+        print('❌️Password must have at least one lowercase letter')
+        time.sleep(0.1) # waiting for 0.1 seconds
+        val = False
+
+    # Checking if the user has entered a password which has a valid symbol
+    # If no, the user will get a warning and has to reenter a new password
+    if not any(char in SpecialSym for char in passwd):
+        print('❌️Password must have at least one of the symbols $@#%!.,')
+        time.sleep(0.1) # waiting for 0.1 seconds
+        val = False
+    if val:
+        return val
+```
+### Testing the program
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Project/Images/Testing%20password%20validation.png)
