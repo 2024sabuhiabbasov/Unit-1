@@ -52,3 +52,4 @@ The program will be based on Windows 10 with AMD Ryzen 3 3250U processor with 8 
 | 6 | Customer test | To have a feedback from a real customer after the cusotomer's app usage | 10 mins | Oct 7 | E | Completed |
 | 7 | Updating text formatting | To have an updated text format to make the app more more clear for the customer based on feedback from the customer meeting | 2 hours | Oct 7 | C | Completed |
 | 8 | Adding online currency resource | To have a coded and tested online currency converter in the app to convert money between BNB and USD | 1 hour | Oct 8 | C | Completed |
+| 9 | Testing the program | To have an idea of how the user will be welcomed and the app will work and adding improvements based on those ideas | 30 mins | Oct 8 | C and E | Completed |
