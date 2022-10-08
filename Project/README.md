@@ -14,7 +14,7 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 ## Proposed Solution
 
 Design statement:
-I will to design and make a CryptoWallet for a client who is a local trader in Japan. The CryptoWallet will be about ———— and is constructed using the software Python. It will take  1 month to make and will be evaluated according to the criteria A.
+I will to design and make a CryptoWallet for a client who is a local trader in Japan. The CryptoWallet app is constructed using the software Python. It will take  1 month to make and will be evaluated according to the criteria A.
 
 I am going to use the cryptocurrency named **BNB**. BNB was initially based on the Ethereum network but is now the native currency of Binance's own blockchain, the Binance chain. Its uses have expanded to numerous applications on a wide number of platforms. It is used to pay for transaction fees on Binance.com, Binance DEX, and Binance Chain.
 
@@ -48,4 +48,7 @@ The program will be based on Windows 10 with AMD Ryzen 3 3250U processor with 8 
 | 2 | Complete [Success Criteria](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Project/README.md#success-criteria) | To have criteria that meet the buyer's expectations | 15 mins | Sep 23 | A | Completed |
 | 3 | Create a login system | A coded and tested login system to protect the application with username and password | 30 mins | Sep 29 | C | Completed |
 | 4 | Create a [flow diagram for login system](https://github.com/2024sabuhiabbasov/Unit-1/tree/main/Project#login-system) | To make it easier for the customer to know how the login system works | 20 mins | Sep 30 | B | Completed |
-| 5 | Create a menu | A coded and tested menu to welcome the customer and make it easy for her to navigate between menus | 30 mins | Oct 2 | C | Completed |
+| 5 | Create a menu | To have a coded and tested menu to welcome the customer and make it easy for her to navigate between menus | 30 mins | Oct 2 | C | Completed |
+| 6 | Customer test | To have a feedback from a real customer after the cusotomer's app usage | 10 mins | Oct 7 | E | Completed |
+| 7 | Updating text formatting | To have an updated text format to make the app more more clear for the customer based on feedback from the customer meeting | 2 hours | Oct 7 | C | Completed |
+| 8 | Adding online currency resource | To have a coded and tested online currency converter in the app to convert money between BNB and USD | 1 hour | Oct 8 | C | Completed |
