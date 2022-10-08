@@ -117,3 +117,82 @@ def password_check(passwd: str):
 ```
 ### Testing the program
 ![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Project/Images/Testing%20password%20validation.png)
+
+## Printing a spreadsheet of made transactions
+"Transaction history" is the second element of the menu. I thought being able to see your transactions would decrease my customer's problem of not being able to follow her transactions. The program uses spendings.csv and currency converter function to get data from spendings.csv and convert their value from BNB to USD. I thought being able to see the value in a daily used currency would make it easier for the customer to read the data. Also, the program prints datas of different categories in different colors so the customer can differentiate her transanctions easily.
+
+```.py
+    # Solve option 2
+    if option == 2:
+        # Adding the heading
+        print(bold_colors[3] + "Transaction history".center(58, " ") + end_code)
+        # Creating a value of 58 dashes for the table heading
+        dashes = f"{bold_colors[6]}{'-'*58}{end_code}"
+        # Printing the table's first line
+        print(f"{dashes}")
+        # Opening the spendings.csv file to get transactions data
+        with open("spendings.csv") as file:
+            database = file.readlines()
+        dash = f"{colors[6]}|{end_code}"
+        # Printing table titles in the second line of the table
+        print(colors[6] + '|' + end_code + bold_colors[5] + "Category".center(18, ' ') + end_code, end='')
+        print(colors[6] + '|' + end_code + bold_colors[5] + "Cost".center(19, ' ') + end_code, end='')
+        print(colors[6] + '|' + end_code + bold_colors[5] + "Date".center(17, ' ') + end_code, end=dash)
+        print('\n' + dashes)
+        # Printing every line of transactions we have gotten from the file spendings.csv in the previous lines
+        for line in database:
+            line_cleaned = line.strip() # remove \n
+            spending = line_cleaned.split(",") # splitting our datas from ','
+
+            # Checking if the category is car, it prints all related data in red
+            if spending[0] == "Car":
+                # Printing the category of the transaction
+                print(f"{colors[6]}|{end_code}{colors[1]}{spending[0].ljust(18, ' ')}{end_code}", end='')
+                # Printing the value of purchase
+                print(f"{colors[6]}|{end_code}{colors[1]}{spending[1].ljust(5, ' ')}{bold_colors[1]}{'BNB'.ljust(2)} {end_code}{colors[1]}{spending[2].ljust(7, ' ')}{bold_colors[1]}{'USD'.ljust(0)}{end_code}", end='')
+                # Printing the date of the transaction
+                print(f"{colors[6]}|{end_code}{colors[1]}{spending[3].ljust(17, ' ')}{end_code}", end=dash)
+                print(f"\n{dashes}")
+
+            # Checking if the category is house, it prints all related data in purple
+            elif spending[0] == "House":
+                # Printing the category of the transaction
+                print(f"{colors[6]}|{end_code}{colors[5]}{spending[0].ljust(18, ' ')}{end_code}", end='')
+                # Printing the value of purchase
+                print(f"{colors[6]}|{end_code}{colors[5]}{spending[1].ljust(5, ' ')}{bold_colors[5]}{'BNB'.ljust(2)} {end_code}{colors[5]}{spending[2].ljust(7, ' ')}{bold_colors[5]}{'USD'.ljust(0)}{end_code}", end='')
+                # Printing the date of the transaction
+                print(f"{colors[6]}|{end_code}{colors[5]}{spending[3].ljust(17, ' ')}{end_code}", end=dash)
+                print(f"\n{dashes}")
+
+            # Checking if the category is food, it prints all related data in green
+            elif spending[0] == "Food":
+                # Printing the category of the transaction
+                print(f"{colors[6]}|{end_code}{colors[2]}{spending[0].ljust(18, ' ')}{end_code}", end='')
+                # Printing the value of purchase
+                print(f"{colors[6]}|{end_code}{colors[2]}{spending[1].ljust(5, ' ')}{bold_colors[2]}{'BNB'.ljust(2)} {end_code}{colors[2]}{spending[2].ljust(7, ' ')}{bold_colors[2]}{'USD'.ljust(0)}{end_code}", end='')
+                # Printing the date of the transaction
+                print(f"{colors[6]}|{end_code}{colors[2]}{spending[3].ljust(17, ' ')}{end_code}", end=dash)
+                print(f"\n{dashes}")
+
+            # Checking if the category is car, it prints all related data in blue
+            elif spending[0] == "Drink":
+                # Printing the category of the transaction
+                print(f"{colors[6]}|{end_code}{colors[4]}{spending[0].ljust(18, ' ')}{end_code}", end='')
+                # Printing the value of purchase
+                print(f"{colors[6]}|{end_code}{colors[4]}{spending[1].ljust(5, ' ')}{bold_colors[4]}{'BNB'.ljust(2)} {end_code}{colors[4]}{spending[2].ljust(7, ' ')}{bold_colors[4]}{'USD'.ljust(0)}{end_code}", end='')
+                # Printing the date of the transaction
+                print(f"{colors[6]}|{end_code}{colors[4]}{spending[3].ljust(17, ' ')}{end_code}", end=dash)
+                print(f"\n{dashes}")
+
+            # Checking if the category is car, it prints all related data in yellow
+            elif spending[0] == "Other":
+                # Printing the category of the transaction
+                print(f"{colors[6]}|{end_code}{colors[3]}{spending[0].ljust(18, ' ')}{end_code}", end='')
+                # Printing the value of purchase
+                print(f"{colors[6]}|{end_code}{colors[3]}{spending[1].ljust(5, ' ')}{bold_colors[3]}{'BNB'.ljust(2)} {end_code}{colors[3]}{spending[2].ljust(7, ' ')}{bold_colors[3]}{'USD'.ljust(0)}{end_code}", end='')
+                # Printing the date of the transaction
+                print(f"{colors[6]}|{end_code}{colors[3]}{spending[3].ljust(17, ' ')}{end_code}", end=dash)
+                print(f"\n{dashes}")
+```
+### Testing the program
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Project/Images/Testing%20transaction%20history.png)
