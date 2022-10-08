@@ -118,7 +118,7 @@ def password_check(passwd: str):
 ### Testing the program
 ![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Project/Images/Testing%20password%20validation.png)
 
-## Printing a spreadsheet of made transactions
+## Transaction history table
 "Transaction history" is the second element of the menu. I thought being able to see your transactions would decrease my customer's problem of not being able to follow her transactions. The program uses spendings.csv and currency converter function to get data from spendings.csv and convert their value from BNB to USD. I thought being able to see the value in a daily used currency would make it easier for the customer to read the data. Also, the program prints datas of different categories in different colors so the customer can differentiate her transanctions easily.
 
 ```.py
