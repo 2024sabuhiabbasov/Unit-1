@@ -39,7 +39,16 @@ The program will be based on Windows 10 with AMD Ryzen 3 3250U processor with 8 
 
 ## Flow Diagrams
 ### Login system
+Login systems uses the users.csv to check if the entered username and pssword match in the data written in users.csv. If yes, the user can enter to her account. If no, she needs to enter the login details again.
 ![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Project/Images/Login%20system%20-%20Flow%20Diagram.jpg)
+
+### Password check
+To protect the customer's privacy, my program checks if the customer chooces a strong password for login. The customer is asked to reenter the password unless she enters a valid password. Also, she is given special instructions about password choose based on the password she has entered.
+![]()
+
+### BNBConverter
+To read the data in an eaiser way, the program prints BNB values in USD as well. This is the flow diagram of converting BNB to USD.
+![]()
 
 ## Record of Tasks
 | Task No | Planned Action                                               | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criteria | Status |
