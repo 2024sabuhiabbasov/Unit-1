@@ -44,7 +44,7 @@ Login systems uses the users.csv to check if the entered username and pssword ma
 
 ### Password check
 To protect the customer's privacy, my program checks if the customer chooces a strong password for login. The customer is asked to reenter the password unless she enters a valid password. Also, she is given special instructions about password choose based on the password she has entered.
-![]()
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Project/Images/Password%20check.jpg)
 
 ### BNBConverter
 To read the data in an eaiser way, the program prints BNB values in USD as well. This is the flow diagram of function converting BNB to USD.
