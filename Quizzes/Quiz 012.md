@@ -1,11 +1,7 @@
 # Quiz 012
 **Statement**
 
-Create a function that shows the days of your birthday’s month for the year 2022. [HL]  Users input any month.
-
-**Test cases**
-
-![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20011%20-test%20cases.png)
+Create a function that receives integer 2<N<10, and returns the multiplication table for the number up to 9.
 
 ## My solutions
 ### Code
