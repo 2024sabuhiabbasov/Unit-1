@@ -41,6 +41,9 @@ def bestMonth()->str:
 bestMonth()
 ```
 
+### Flow diagram
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20011%20-%20Flow%20diagram.jpg)
+
 **Testing the code**
 
 **Test 1**
