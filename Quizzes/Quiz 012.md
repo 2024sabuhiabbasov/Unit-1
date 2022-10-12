@@ -34,9 +34,11 @@ number = validate_int_input("Please input a number which you want to multiply wi
 
 print(colors[2] + "Multiplication table".center(40, ' ') + '\n' + mulTable(number) + end_code)
 ```
+### Flow diagram
+![]()
 
 **Testing the code**
 
 **Test 1**
 
-![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20012%20-%20testing%20the%20code.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20012%20-%20testing%20the%20program.png)
