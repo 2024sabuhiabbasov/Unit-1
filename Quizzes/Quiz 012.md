@@ -1,7 +1,7 @@
 # Quiz 012
 **Statement**
 
-Create a function that receives integer 2<N<10, and returns the multiplication table for the number up to 9.
+Create a function that receives integer 2<N<10, and returns the multiplication table for the number up to 9. [HL] Users input any month.
 
 ## My solutions
 ### Code
