@@ -59,7 +59,7 @@ n = validate_int_input("Please enter the number of students N and the number of 
 open_doors(numberOfStudents=n)
 ```
 ### Flow diagram
-![]()
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Quizzes/Images/Quiz%20015%20-%20Flow%20diagram.jpg)
 
 **Testing the code**
 
