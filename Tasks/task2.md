@@ -15,7 +15,7 @@ Make a program for the EV calculator
 ## My solution
 ### Code
 ```.py
-# Example program for writing and reading files in Python
+# Task 2
 import time
 from my_library import validate_int_input
 
@@ -63,7 +63,7 @@ while checker == True:
             print(colors[2] + line + end_code)
 
     #Solve option 2
-    if option == 2:
+    elif option == 2:
         total_energy = 0
         cnt = 0
         for line in ev_data:
@@ -78,7 +78,7 @@ while checker == True:
         print(colors[2] + "The total energy used is " + str(total_energy) + "kWh.\n" + end_code)
 
     # Solve option 3
-    if option == 3:
+    elif option == 3:
         total_time = 0
         cnt = 0
         for line in ev_data:
@@ -91,7 +91,7 @@ while checker == True:
         print(colors[2] + "Total charge time is " + str(total_time // 3600) + ':' + str(total_time//60 % 60) + ':' + str(total_time % 60) + '.\n' + end_code)
 
     # Solve option 1
-    if option == 1:
+    elif option == 1:
         total_energy = 0
         total_time = 0
         cnt = 0
@@ -118,13 +118,14 @@ while checker == True:
     print(colors[2] + "Options".center(50) + end_code)
     print(colors[2] + menu + end_code)
     next_step = input(colors[1] + "Do you want to continue? If yes, please enter 'YES.' If no, please enter 'NO' " + end_code)
-    if next_step == 'YES':
+    if next_step.upper() == 'YES':
         checker = True
         option = validate_int_input(colors[2] + "Please enter an option [1-4]: " + end_code)
-    elif next_step == 'NO':
+    elif next_step.upper() == 'NO':
         checker = False
         print(colors[2] + "Goodbye!" + end_code)
 ```
 
 ### Testing the code
-![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Tasks/Images/Task%202%20-%20testing%20the%20code.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Tasks/Images/Task%202%20-%20testing%20the%20program%200.png)
+![](https://github.com/2024sabuhiabbasov/Unit-1/blob/main/Tasks/Images/Task%202%20-%20testing%20the%20program%201.png)
